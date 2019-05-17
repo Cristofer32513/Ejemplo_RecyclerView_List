@@ -16,6 +16,7 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
     public MyListAdapter(MyListData[] listdata) {
         this.listdata = listdata;
     }
+
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
@@ -36,7 +37,6 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
             }
         });
     }
-
 
     @Override
     public int getItemCount() {
