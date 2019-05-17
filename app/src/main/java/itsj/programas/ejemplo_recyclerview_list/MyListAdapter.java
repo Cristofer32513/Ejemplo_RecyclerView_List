@@ -9,7 +9,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder>{
     private MyListData[] listdata;
 
